@@ -38,13 +38,7 @@ Once you have the token, you can initialize the client for the desired environme
 ```python
 from bitpay_light.client import Client
 
-bitpay = Client(config_file_path)
-```
-
-```python
-from bitpay_light.client import Client
-
-bitpay = Client(None, environment, private_key_path, tokens)
+bitpay = Client("token", "Test")
 ```
 
 ### Create an invoice
